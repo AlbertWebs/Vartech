@@ -40,7 +40,7 @@
                             <div class="circle-icon">
                                 <span class="ti-music-alt text-white"></span>
                             </div>
-                            <h5>Market Research</h5>
+                            <h5>Marketing</h5>
                             <p>Increase sales by showing true dynamics of your website.</p>
                         </div>
                     </a>
@@ -51,7 +51,7 @@
                             <div class="circle-icon">
                                 <span class="ti-dashboard text-white"></span>
                             </div>
-                            <h5>Content Marketing</h5>
+                            <h5>Advertising</h5>
                             <p>Build your online store’s trust using Social Proof &amp; Urgency.</p>
                         </div>
                     </a>
@@ -62,7 +62,7 @@
                             <div class="circle-icon">
                                 <span class="ti-headphone-alt text-white"></span>
                             </div>
-                            <h5>Email Marketing</h5>
+                            <h5>Media Production</h5>
                             <p>Realize importance of social proof in customer’s purchase decision.</p>
                         </div>
                     </a>

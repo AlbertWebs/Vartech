@@ -21,7 +21,7 @@
     <meta property="og:type" content="article"/>
 
     <!--title-->
-    <title>DigiMark Digital Marketing and Agency HTML Template</title>
+    <title>Vartech East Africa | Marketing and Agency in Kenya</title>
 
     <!--favicon icon-->
     <link rel="icon" href="img/favicon.png" type="image/png" sizes="16x16">
@@ -75,7 +75,7 @@
                     <div class="topbar-text text-white">
                         <ul class="list-inline">
                             <li class="list-inline-item"><span class="fas fa-headphones-alt mr-1"></span> 24x7 Technical Support</li>
-                            <li class="list-inline-item"><span class="fas fa-phone-alt mr-1"></span> 883-4565-123456</li>
+                            <li class="list-inline-item"><span class="fas fa-phone-alt mr-1"></span> 0723405320</li>
                         </ul>
                     </div>
                 </div>
@@ -114,64 +114,16 @@
             <div class="collapse navbar-collapse h-auto" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto menu">
                     <li><a href="#" class="dropdown-toggle"> Home</a>
-                        <ul class="sub-menu">
-                            <li><a href="index-2.html">Home Page 01</a></li>
-                            <li><a href="index-3.html">Home Page 02</a></li>
-                            <li><a href="index-4.html">Home Page 03</a></li>
-                            <li><a href="index-5.html">Home Page 04</a></li>
-                            <li><a href="index-6.html">Home Page 05</a></li>
-                            <li><a href="index-7.html">Home Page 06</a></li>
-                            <li><a href="index-8.html">Home Page 07 <span class="badge badge-warning ml-2">New</span></a></li>
-                        </ul>
+
                     </li>
-                    <li><a href="about-us.html">About Us</a></li>
-                    <li><a href="#" class="dropdown-toggle">Pages</a>
-                        <ul class="sub-menu">
-                            <li><a href="#" class="dropdown-toggle-inner">Login & Sign Up</a>
-                                <ul class="sub-menu">
-                                    <li><a href="basic-login.html">Login Page 1</a></li>
-                                    <li><a href="login.html">Login Page 2</a></li>
-                                    <li><a href="basic-sign-up.html">Signup Page 1</a></li>
-                                    <li><a href="sign-up.html">Signup Page 2</a></li>
-                                    <li><a href="password-reset.html">Reset Password</a></li>
-                                    <li><a href="change-password.html">Change Password</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#" class="dropdown-toggle-inner">Utilities</a>
-                                <ul class="sub-menu">
-                                    <li><a href="download.html">Download Page</a></li>
-                                    <li><a href="review.html">Review Page</a></li>
-                                    <li><a href="faq.html">FAQ Page</a></li>
-                                    <li><a href="404.html">404 Page</a></li>
-                                    <li><a href="coming-soon.html">Coming Soon</a></li>
-                                    <li><a href="thank-you.html">Thank You Page</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#" class="dropdown-toggle-inner">Team</a>
-                                <ul class="sub-menu">
-                                    <li><a href="team.html">Our Team Members</a></li>
-                                    <li><a href="team-single.html">Team Member Profile</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#" class="dropdown-toggle-inner">Our Blog</a>
-                                <ul class="sub-menu">
-                                    <li><a href="blog-default.html">Blog Grid</a></li>
-                                    <li><a href="blog-no-sidebar.html">Blog No Sidebar</a></li>
-                                    <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
-                                    <li><a href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
-                                    <li><a href="blog-right-sidebar-2.html">Blog Right Sidebar 02</a></li>
-                                    <li><a href="blog-single-left-sidebar.html">Details Left Sidebar</a></li>
-                                    <li><a href="blog-single-right-sidebar.html">Details Right Sidebar</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="project-details.html">Project Details </a></li>
-                            <li><a href="services-details.html">Services Details</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="services.html">Services</a></li>
+                    <li><a href="about-us.html">Brands</a></li>
+
+                    <li><a href="services.html">Partners</a></li>
+                    <li><a href="project.html">You</a></li>
+                    <li><a href="project.html">About Us</a></li>
                     <li><a href="project.html">Case Study</a></li>
                     <li><a href="contact-us.html">Contact Us</a></li>
-                    <li><a href="#" class="btn secondary-solid-btn check-btn">Free Check</a></li>
+                    <li><a href="#" class="btn secondary-solid-btn check-btn">Investor Center</a></li>
                 </ul>
             </div>
         </div>
@@ -293,9 +245,9 @@
         <div class="container">
             <div class="row align-items-center justify-content-between">
                 <div class="col-md-5 col-lg-5">
-                    <p class="copyright-text pb-0 mb-0">Copyrights © 2020. All
+                    <p class="copyright-text pb-0 mb-0">Copyrights © {{date('Y')}}. All
                         rights reserved by
-                        <a href="https://themeforest.net/user/themetags" target="_blank">ThemeTags</a></p>
+                        <a href="#" target="_blank">Vartech East Africa</a></p>
                 </div>
                 <div class="col-md-7 col-lg-6 d-none d-md-block d-lg-block">
                     <ul class="list-inline policy-nav text-right social-list">
