@@ -3,6 +3,8 @@
 
 
 <head>
+    <!-- Title  -->
+    <title>Vartech East Africa | Marketing and Agency in Kenya</title>
 
     <!-- Metas -->
     <meta charset="utf-8">
@@ -11,9 +13,6 @@
     <meta name="keywords" content="HTML5 Template Vie onepage themeforest" />
     <meta name="description" content="Vie - Onepage Multi-Purpose HTML5 Template" />
     <meta name="author" content="" />
-
-    <!-- Title  -->
-    <title>Vie</title>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="img/favicon.ico" />
