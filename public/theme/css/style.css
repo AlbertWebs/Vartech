@@ -2,9 +2,9 @@
 
     Theme Name: Vie
     Theme URI: http://
-    Description: Creative Agency & Portfolio
-    Author: UI-ThemeZ
-    Author URI: http://themeforest.net/user/UI-ThemeZ
+    Description:
+    Author:
+    Author URI:
     Version: 1.0
 
 -----------------------------------------------------------------------------------*/
@@ -42,7 +42,7 @@
     |--- BASE
 
         |- responsive
-	
+
 
 
 ---------------------------------------------------------------- */
@@ -1242,9 +1242,18 @@ a:hover, span:hover {
   height: 6px;
   z-index: 10000001;
   background-color: #12c2e9;
-  -webkit-transition: width .3s ease-in-out, height .3s ease-in-out, margin .3s ease-in-out, opacity .3s ease-in-out;
-  -o-transition: width .3s ease-in-out, height .3s ease-in-out, margin .3s ease-in-out, opacity .3s ease-in-out;
-  transition: width .3s ease-in-out, height .3s ease-in-out, margin .3s ease-in-out, opacity .3s ease-in-out;
+  -webkit-transition: width .3s ease-in-out,
+ height .3s ease-in-out,
+ margin .3s ease-in-out,
+ opacity .3s ease-in-out;
+  -o-transition: width .3s ease-in-out,
+ height .3s ease-in-out,
+ margin .3s ease-in-out,
+ opacity .3s ease-in-out;
+  transition: width .3s ease-in-out,
+ height .3s ease-in-out,
+ margin .3s ease-in-out,
+ opacity .3s ease-in-out;
 }
 
 .cursor-inner.cursor-hover {
@@ -1834,7 +1843,7 @@ a:hover, span:hover {
 }
 
 .navbar .logo {
-  width: 50px;
+  width: 300px;
 }
 
 .nav-scroll {
@@ -2945,9 +2954,12 @@ a:hover, span:hover {
   color: #fff;
   opacity: 0;
   visibility: hidden;
-  -webkit-transition: opacity .5s, visibility .5s;
-  -o-transition: opacity .5s, visibility .5s;
-  transition: opacity .5s, visibility .5s;
+  -webkit-transition: opacity .5s,
+ visibility .5s;
+  -o-transition: opacity .5s,
+ visibility .5s;
+  transition: opacity .5s,
+ visibility .5s;
 }
 
 .slider-bus .caption p {
@@ -7954,7 +7966,7 @@ footer .item .copy-right p a {
   }
   .navbar .logo {
     margin-left: 15px;
-    width: 50px;
+    width: 300px;
   }
   .nav-scroll .navbar-collapse .nav-link,
   .light .navbar-collapse .nav-link {
@@ -8255,7 +8267,7 @@ footer .item .copy-right p a {
     bottom: 15px;
   }
   .navbar .logo {
-    width: 40px;
+    width: 200px;
   }
   .hamenu .menu-links .main-menu > li {
     font-size: 24px;

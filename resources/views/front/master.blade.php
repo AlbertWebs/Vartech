@@ -83,7 +83,7 @@
 
             <!-- Logo -->
             <a class="logo" href="#">
-                <img src="img/logo-light.png" alt="logo">
+                <img src="{{asset('theme/img/website-logos-1.png')}}" alt="logo">
             </a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
