@@ -19,3 +19,6 @@ Route::get('/', function () {
 Route::get('/contact-us', function () {
     return view('front.contact');
 });
+Route::get('/about-us', function () {
+    return view('front.about');
+});
