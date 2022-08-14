@@ -2,145 +2,128 @@
 
 @section('content')
 
- <!--header section start-->
- <section class="hero-section ptb-100 gradient-overlay"
- style="background: url('img/header-bg-5.jpg')no-repeat center center / cover">
-<div class="container">
-<div class="row justify-content-center">
-    <div class="col-md-8 col-lg-7">
-        <div class="page-header-content text-white text-center pt-sm-5 pt-md-5 pt-lg-0">
-            <h1 class="text-white mb-0">Contact Us</h1>
-            <div class="custom-breadcrumb">
-                <ol class="breadcrumb d-inline-block bg-transparent list-inline py-0">
-                    <li class="list-inline-item breadcrumb-item"><a href="#">Home</a></li>
-                    <li class="list-inline-item breadcrumb-item active">Contact Us</li>
-                </ol>
+<header class="pages-header circle-bg valign position-re">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-9 col-md-11">
+                <div class="capt">
+                    <div class="text-center">
+                        <h1 class="color-font mb-10 fw-700">Let's talk <br> about your project.</h1>
+                        <p>Feel free to ask me any question or let’s do to talk about
+                            our future collaboration.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-</div>
-</div>
-</section>
-<!--header section end-->
 
-    <!--contact us promo start-->
-    <section class="contact-us-promo pt-100">
+    <div class="circle-color">
+        <div class="gradient-circle"></div>
+        <div class="gradient-circle two"></div>
+    </div>
+
+    <div class="line bottom right"></div>
+</header>
+
+<!-- ==================== End header ==================== -->
+
+
+<!-- ==================== Start main-content ==================== -->
+
+<div class="main-content">
+
+    <!-- ==================== Start Contact ==================== -->
+
+    <section class="contact section-padding">
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="card single-promo-card single-promo-hover text-center shadow-sm">
-                        <div class="card-body py-5">
-                            <div class="pb-2">
-                                <span class="ti-mobile icon-sm color-secondary"></span>
-                            </div>
-                            <div><h5 class="mb-0">Call Us</h5>
-                                <p class="text-muted mb-0">+123 456-78900</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="card single-promo-card single-promo-hover text-center shadow-sm">
-                        <div class="card-body py-5">
-                            <div class="pb-2">
-                                <span class="ti-location-pin icon-sm color-secondary"></span>
-                            </div>
-                            <div><h5 class="mb-0">Visit Us</h5>
-                                <p class="text-muted mb-0">New York, CA N310</p></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="card single-promo-card single-promo-hover text-center shadow-sm">
-                        <div class="card-body py-5">
-                            <div class="pb-2">
-                                <span class="ti-email icon-sm color-secondary"></span>
-                            </div>
-                            <div><h5 class="mb-0">Mail Us</h5>
-                                <p class="text-muted mb-0">help@yourdomain.com</p></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="card single-promo-card single-promo-hover text-center shadow-sm">
-                        <div class="card-body py-5">
-                            <div class="pb-2">
-                                <span class="ti-headphone-alt icon-sm color-secondary"></span>
-                            </div>
-                            <div><h5 class="mb-0">Live Chat</h5>
-                                <p class="text-muted mb-0">Chat with Us 24/7</p></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--contact us promo end-->
+                <div class="col-lg-6">
+                    <div class="form md-mb50">
 
-    <!--contact us section start-->
-    <section class="contact-us-section ptb-100">
-        <div class="container contact">
-            <div class="col-12 pb-3 message-box d-none">
-                <div class="alert alert-danger"></div>
-            </div>
-            <div class="row justify-content-around">
-                <div class="col-md-6">
-                    <div class="contact-us-form gray-light-bg rounded p-5">
-                        <h4>Ready to get started?</h4>
-                        <form action="#" method="POST" id="contactForm" class="contact-us-form">
-                            <div class="form-row">
-                                <div class="col-12">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" name="name" placeholder="Enter name" required="required">
-                                    </div>
+                        <h4 class="fw-700 color-font mb-50">Get In Touch.</h4>
+
+                        <form id="contact-form" method="post" action="#">
+
+                            <div class="messages"></div>
+
+                            <div class="controls">
+
+                                <div class="form-group">
+                                    <input id="form_name" type="text" name="name" placeholder="Name"
+                                        required="required">
                                 </div>
-                                <div class="col-12">
-                                    <div class="form-group">
-                                        <input type="email" class="form-control" name="email" placeholder="Enter email" required="required">
-                                    </div>
+
+                                <div class="form-group">
+                                    <input id="form_email" type="email" name="email" placeholder="Email"
+                                        required="required">
                                 </div>
-                                <div class="col-12">
-                                    <div class="form-group">
-                                        <textarea name="message" id="message" class="form-control" rows="7" cols="25" placeholder="Message"></textarea>
-                                    </div>
+
+                                <div class="form-group">
+                                    <textarea id="form_message" name="message" placeholder="Message" rows="4"
+                                        required="required"></textarea>
                                 </div>
-                                <div class="col-sm-12 mt-3">
-                                    <button type="submit" class="btn secondary-solid-btn" id="btnContactUs">
-                                        Send Message
-                                    </button>
-                                </div>
+
+                                <button type="submit" class="butn bord"><span>Send Message</span></button>
                             </div>
                         </form>
                     </div>
                 </div>
-                <div class="col-md-5">
-                    <div class="contact-us-content">
-                        <h2>Looking for a excellent Business idea?</h2>
-                        <p class="lead">Seamlessly deliver pandemic e-services and next-generation initiatives.</p>
-
-                        <a href="#" class="btn outline-btn align-items-center">Get Directions <span class="ti-arrow-right pl-2"></span></a>
-
-                        <hr class="my-5">
-
-                        <h5>Our Headquarters</h5>
-                        <address>
-                            100 Yellow House, Mn <br>
-                            Factory, United State, 13420
-                        </address>
-                        <br>
-                        <span>Phone: +1234567890123</span> <br>
-                        <span>Email: <a href="mailto:email@yourdomain.com" class="link-color">email@yourdomain.com</a></span>
-
+                <div class="col-lg-5 offset-lg-1">
+                    <div class="cont-info">
+                        <h4 class="fw-700 color-font mb-50">Contact Info.</h4>
+                        <h3 class="wow" data-splitting>Let's Talk.
+                        </h3>
+                        <div class="item mb-40">
+                            <h5><a href="#0">support@vartecheastafrica.com</a></h5>
+                            <h5>+254 723 405320</h5>
+                        </div>
+                        <h3 class="wow" data-splitting>Visit Us.
+                        </h3>
+                        <div class="item">
+                            <h6>Kileleshwa Heights, Nyeri Rd,,
+                                <br> Nairobi
+                            </h6>
+                        </div>
+                        <div class="social mt-50">
+                            <a href="#0" class="icon">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#0" class="icon">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#0" class="icon">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#0" class="icon">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!--contact us section end-->
 
-    <!--google map block start-->
-    <div class="google-maps">
+    <!-- ==================== End Contact ==================== -->
+
+
+    <!-- ==================== Start Map ==================== -->
+
+    <div class="map" id="ieatmaps">
         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15955.278735044094!2d36.7799344!3d-1.2819582!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6ae3d137c7a19a23!2sVartech%20East%20Africa!5e0!3m2!1sen!2ske!4v1652370712304!5m2!1sen!2ske" height="450" width="100%" style="border:0;" allowfullscreen=""></iframe>
     </div>
-    <!--google map block end-->
+
+    <!-- ==================== End Map ==================== -->
+
+
+    <!-- ==================== Start Footer ==================== -->
+
+    @include('front.footer')
+
+    <!-- ==================== End Footer ==================== -->
+
+
+</div>
+
+<!-- ==================== End main-content ==================== -->
 @endsection

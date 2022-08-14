@@ -10,9 +10,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta name="keywords" content="HTML5 Template Vie onepage themeforest" />
-    <meta name="description" content="Vie - Onepage Multi-Purpose HTML5 Template" />
-    <meta name="author" content="" />
+    <meta name="keywords" content="Vartech East Africa | Marketing and Agency in Kenya" />
+    <meta name="description" content="Vartech East Africa | Marketing and Agency in Kenya" />
+    <meta name="author" content="Designekta Studios" />
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="img/favicon.ico" />
@@ -81,8 +81,8 @@
         <div class="container">
 
             <!-- Logo -->
-            <a class="logo" href="#">
-                <img src="{{asset('theme/img/website-logos-1.png')}}" alt="logo">
+            <a class="logo" href="{{url('/')}}">
+                <img src="{{asset('theme/img/website-logos-1.png')}}" alt="Vartech East Africa">
             </a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -94,46 +94,27 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
-                            aria-haspopup="true" aria-expanded="false">Home</a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="index.html">Main Home</a>
-                            <a class="dropdown-item" href="index2.html">Creative Agency</a>
-                            <a class="dropdown-item" href="index5.html">Digital Agency</a>
-                            <a class="dropdown-item" href="index4.html">Business One Page</a>
-                            <a class="dropdown-item" href="index3.html">Corporate Business</a>
-                            <a class="dropdown-item" href="index6.html">Modern Agency</a>
-                            <a class="dropdown-item" href="index7.html">Freelancer</a>
-                            <a class="dropdown-item" href="index8.html">Architecture</a>
-                        </div>
+                        <a class="nav-link" href="#">Home <i class="fa fa-home"></i></a>
+
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
-                    </li>
+
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
-                            aria-haspopup="true" aria-expanded="false">Works</a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="showcase.html">Showcase Parallax</a>
-                            <a class="dropdown-item" href="showcase4.html">Showcase Carousel</a>
-                            <a class="dropdown-item" href="showcase3.html">Showcase Circle</a>
-                            <a class="dropdown-item" href="works.html">Portfolio Masonry</a>
-                            <a class="dropdown-item" href="works2.html">Portfolio Filtering</a>
-                            <a class="dropdown-item" href="works3.html">Portfolio Gallery</a>
-                        </div>
+                        <a class="nav-link" href="#">About Us </a>
+
                     </li>
+
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
-                            aria-haspopup="true" aria-expanded="false">Blog</a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="blog.html">Blog Standerd</a>
-                            <a class="dropdown-item" href="blog-list.html">Blog List</a>
-                            <a class="dropdown-item" href="blog-grid.html">Blog Grid</a>
-                            <a class="dropdown-item" href="blog-details.html">Blog Details</a>
-                        </div>
+                        <a class="nav-link" href="#">Our Work </a>
+
                     </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#">Our Services </a>
+
+                    </li>
+
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
+                        <a class="nav-link" href="{{url('/')}}/contact-us">Contact Us <i class="fa fa-phone"></i></a>
                     </li>
                 </ul>
             </div>
