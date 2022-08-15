@@ -140,6 +140,12 @@
     <!-- custom scripts -->
     <script src="{{asset('theme/js/scripts.js')}}"></script>
 
+    <script>
+        $(document).ready(function(){
+          $(".beWhite").css("color","white");
+        });
+    </script>
+
 </body>
 
 

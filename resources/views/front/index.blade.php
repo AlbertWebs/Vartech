@@ -12,16 +12,8 @@
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-8 col-md-10">
-                                    <div class="caption center mt-30 text-center" >
-                                            {{-- <h1 style="margin:0 auto;">
-                                                <span class="color-font">
-                                                    Digital
-                                                    <br>
-                                                    Design
-                                                </span>
-                                                Solutions
-                                            </h1> --}}
-                                            <h1 class="color-font">Digital <br> Design <span style="color:#ffffff !important">Solutions</span></h1>
+                                    <div class="caption center mt-30 text-center">
+                                        <h1 class="color-font">Digital <br> Design <span class="text-white beWhite">Solutions</span></h1>
                                         <p style="margin:0 auto; max-width:500px">
                                             At Vartech East Africa, we believe a brand’s sustainability and how it can be maximized. We call this
                                             Interactively by design®.
@@ -35,6 +27,31 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="swiper-slide">
+                    <div class="bg-img valign" data-background="{{asset('theme/img/slid/01.jpg')}}" data-overlay-dark="6">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8 col-md-10">
+                                    <div class="caption center mt-30 text-center">
+                                        <h1>Business <span class="color-font">value</span> <br> <span
+                                            class="color-font">through</span> innovation</h1>
+                                        <p style="margin:0 auto; max-width:500px">
+                                            At Vartech East Africa, we believe a brand’s sustainability and how it can be maximized. We call this
+                                            Interactively by design®.
+                                        </p>
+                                        <a href="#0" class="butn bord curve mt-30">
+                                            <span>Look More</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
 
             </div>
 
@@ -57,6 +74,8 @@
             </div>
         </div>
     </header>
+
+
 
     <!-- ==================== End Slider ==================== -->
 
@@ -378,25 +397,37 @@
                     <div class="col-lg-7">
                         <div class="">
                             <div class="row">
-                                <div class="col-md-6">
+                                <div class="col-md-4">
                                     <div class="item wow fadeInLeft" data-wow-delay=".6">
                                         <div class="skill" data-value="0.9">
                                             <span class="">90%</span>
                                         </div>
                                         <div class="cont">
-                                            <span>Project</span>
-                                            <h6>Consulting</h6>
+                                            <span></span>
+                                            <h6>Marketing</h6>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-md-4">
                                     <div class="item wow fadeInLeft" data-wow-delay=".3">
                                         <div class="skill" data-value="0.75">
                                             <span class="">75%</span>
                                         </div>
                                         <div class="cont">
-                                            <span>App</span>
-                                            <h6>Development</h6>
+                                            <span></span>
+                                            <h6>Advertisement</h6>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <div class="item wow fadeInLeft" data-wow-delay=".3">
+                                        <div class="skill" data-value="0.75">
+                                            <span class="">75%</span>
+                                        </div>
+                                        <div class="cont">
+                                            <span></span>
+                                            <h6>Production</h6>
                                         </div>
                                     </div>
                                 </div>
