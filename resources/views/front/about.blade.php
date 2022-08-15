@@ -44,15 +44,23 @@
                 </div>
                 <div class="col-lg-8 offset-lg-1 col-md-8">
                     <div class="text">
-                        <p class="wow txt mb-10" data-splitting>We develop creative solutions for small and big brands
-                            alike,
-                            build authentic product
-                            identities and much more.Lorem ipsum dolor sit amet, consectetur adipiscing elit sit non
-                            facilisis vitae eut.</p>
-                        <p class="wow txt" data-splitting>lorem in id tristique
-                            in elementum leo nisi eleifend placerat magna lacus elementum ornare vehicula odio
-                            posuere quisque ultrices tempus cras id blandit maecenas in ornare quis dolor tempus
-                            risus vitae feugiat fames aliquet sed.</p>
+                        <p class="wow txt mb-10" data-splitting>
+                            At Vartech East Africa, we believe a brand’s sustainability and how it can be maximized. We call this
+                            Interactively by design®.
+                            <br>
+                            With strategic thinking and smart technology, meticulous attention to detail and careful curation, we help
+                            brands own the spotlight. To be seen, appreciated, and remembered by the right people. We call this approach
+                            Interactively by Design. Because we believe sought after brands don’t happen by chance. They’re created.
+                        </p>
+                        <p class="wow txt" data-splitting>
+                            Bring your brand’s creative vision in the best light, with exceptionally designed sites in landmark locations, we
+                            believe that Quality matters. We deliver it with personalized service, clever strategic thinking and meticulous
+                            attention to detail. We dont stop there, they say you’re known by the company you keep. And this rings true
+                            for brands, as well as people.
+                            <br>
+                            We also have advanced data collection technology gathered from over 10 million mobiles in the East and
+                            Central Africa ensures creating campaigns that are seen by the right people.
+                        </p>
                     </div>
                 </div>
             </div>

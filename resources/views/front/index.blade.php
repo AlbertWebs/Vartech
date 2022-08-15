@@ -12,10 +12,20 @@
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-8 col-md-10">
-                                    <div class="caption center mt-30">
-                                        <h1>Business <span class="color-font">value</span> <br> <span
-                                                class="color-font">through</span> digital <span
-                                                class="color-font">products</span></h1>
+                                    <div class="caption center mt-30 text-center" >
+                                            {{-- <h1 style="margin:0 auto;">
+                                                <span class="color-font">
+                                                    Digital
+                                                    <br>
+                                                    Design
+                                                </span>
+                                                Solutions
+                                            </h1> --}}
+                                            <h1 class="color-font">Digital <br> Design <span style="color:#ffffff !important">Solutions</span></h1>
+                                        <p style="margin:0 auto; max-width:500px">
+                                            At Vartech East Africa, we believe a brand’s sustainability and how it can be maximized. We call this
+                                            Interactively by design®.
+                                        </p>
                                         <a href="#0" class="butn bord curve mt-30">
                                             <span>Look More</span>
                                         </a>
@@ -25,42 +35,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="swiper-slide">
-                    <div class="bg-img valign" data-background="{{asset('theme/img/slid/03.jpg')}}" data-overlay-dark="6">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-7 col-md-9">
-                                    <div class="caption center mt-30">
-                                        <h1 class="color-font">Digital <br> Design Awards</h1>
-                                        <p>If you need to redesign your new project, new visual strategy, ux structure
-                                            or you do have some cool ideas for collaboration.</p>
-                                        <a href="#0" class="butn bord curve mt-30">
-                                            <span>Look More</span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="bg-img valign" data-background="{{asset('theme/img/slid/02.jpg')}}" data-overlay-dark="6">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-7 col-md-9">
-                                    <div class="caption center mt-30">
-                                        <h1 class="color-font">Original Solutions</h1>
-                                        <p>If you need to redesign your new project, new visual strategy, ux structure
-                                            or you do have some cool ideas for collaboration.</p>
-                                        <a href="#0" class="butn bord curve mt-30">
-                                            <span>Look More</span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
             </div>
 
             <!-- slider setting -->
@@ -99,11 +74,15 @@
                         <div class="mb-50">
                             <h6 class="fw-100 text-u ls10 mb-10">About Us</h6>
                             <h3 class="fw-600 text-u ls1 mb-30 color-font">Our Comapny</h3>
-                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                                laudantium, totam rem aperiam Sed ut perspiciatis unde omnis iste natus error sit
-                                voluptatem
-                                accusantium doloremque laudantium, totam rem aperiam.</p>
-                            <a href="#0" class="butn bord curve mt-30">
+                            <p>
+                                At Vartech East Africa, we believe a brand’s sustainability and how it can be maximized. We call this
+                                Interactively by design®.
+                                <br><br>
+                                With strategic thinking and smart technology, meticulous attention to detail and careful curation, we help
+                                brands own the spotlight. To be seen, appreciated, and remembered by the right people. We call this approach
+                                Interactively by Design. Because we believe sought after brands don’t happen by chance. They’re created.
+                            </p>
+                            <a href="{{url('/')}}/about-us" class="butn bord curve mt-30">
                                 <span>Read More</span>
                             </a>
                         </div>
