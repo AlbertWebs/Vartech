@@ -32,6 +32,28 @@
                     <div class="bg-img valign" data-background="{{asset('theme/img/slid/01.jpg')}}" data-overlay-dark="6">
                         <div class="container">
                             <div class="row justify-content-center">
+                                <div class="col-lg-7 col-md-9">
+                                    <div class="caption center mt-30">
+                                        <h1>Original <span class="color-font">Solutions</span> </h1>
+
+                                        <p style="margin:0 auto; max-width:500px">
+                                            At Vartech East Africa, we believe a brand’s sustainability and how it can be maximized. We call this
+                                            Interactively by design®.
+                                        </p>
+                                        <a href="#0" class="butn bord curve mt-30">
+                                            <span>Look More</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="bg-img valign" data-background="{{asset('theme/img/slid/01.jpg')}}" data-overlay-dark="6">
+                        <div class="container">
+                            <div class="row justify-content-center">
                                 <div class="col-lg-8 col-md-10">
                                     <div class="caption center mt-30 text-center">
                                         <h1>Business <span class="color-font">value</span> <br> <span
@@ -49,6 +71,28 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="swiper-slide">
+                    <div class="bg-img valign" data-background="{{asset('theme/img/slid/01.jpg')}}" data-overlay-dark="6">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8 col-md-10">
+                                    <div class="caption center mt-30 text-center">
+                                        <h1 class="color-font">Digital <br> Design <span class="text-white beWhite">Solutions</span></h1>
+                                        <p style="margin:0 auto; max-width:500px">
+                                            At Vartech East Africa, we believe a brand’s sustainability and how it can be maximized. We call this
+                                            Interactively by design®.
+                                        </p>
+                                        <a href="#0" class="butn bord curve mt-30">
+                                            <span>Look More</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
 
 
 
@@ -183,8 +227,8 @@
                                             data-background="{{asset('theme/img/portfolio/metro/01.jpg')}}">
                                         </div>
                                         <div class="cont">
-                                            <h6 class="color-font"><a href="#0">art & illustration</a></h6>
-                                            <h4><a href="project-details2.html">Innovation and Crafts.</a></h4>
+                                            <h6 class="color-font"><a href="#0">Network & Locations</a></h6>
+                                            {{-- <h4><a href="project-details2.html">Innovation and Crafts.</a></h4> --}}
                                         </div>
                                     </div>
                                 </div>
@@ -194,8 +238,8 @@
                                             data-background="{{asset('theme/img/portfolio/metro/02.jpg')}}">
                                         </div>
                                         <div class="cont">
-                                            <h6 class="color-font"><a href="#0">art & illustration</a></h6>
-                                            <h4><a href="project-details2.html">Inspiring new space.</a></h4>
+                                            <h6 class="color-font"><a href="#0">Network & Locations</a></h6>
+                                            {{-- <h4><a href="project-details2.html">Inspiring new space.</a></h4> --}}
                                         </div>
                                     </div>
                                 </div>
@@ -205,8 +249,8 @@
                                             data-background="{{asset('theme/img/portfolio/metro/03.jpg')}}">
                                         </div>
                                         <div class="cont">
-                                            <h6 class="color-font"><a href="#0">art & illustration</a></h6>
-                                            <h4><a href="project-details2.html">Natural plus modern.</a></h4>
+                                            <h6 class="color-font"><a href="#0">Network & Locations</a></h6>
+                                            {{-- <h4><a href="project-details2.html">Natural plus modern.</a></h4> --}}
                                         </div>
                                     </div>
                                 </div>
@@ -216,8 +260,8 @@
                                             data-background="{{asset('theme/img/portfolio/metro/04.jpg')}}">
                                         </div>
                                         <div class="cont">
-                                            <h6 class="color-font"><a href="#0">art & illustration</a></h6>
-                                            <h4><a href="project-details2.html">Innovation and Crafts.</a></h4>
+                                            <h6 class="color-font"><a href="#0">Network & Locations</a></h6>
+                                            {{-- <h4><a href="project-details2.html">Innovation and Crafts.</a></h4> --}}
                                         </div>
                                     </div>
                                 </div>
@@ -227,8 +271,8 @@
                                             data-background="{{asset('theme/img/portfolio/metro/05.jpg')}}">
                                         </div>
                                         <div class="cont">
-                                            <h6 class="color-font"><a href="#0">art & illustration</a></h6>
-                                            <h4><a href="project-details2.html">Inspiring new space.</a></h4>
+                                            <h6 class="color-font"><a href="#0">Network & Locations</a></h6>
+                                            {{-- <h4><a href="project-details2.html">Inspiring new space.</a></h4> --}}
                                         </div>
                                     </div>
                                 </div>
@@ -268,24 +312,21 @@
                         <div class="item no-bord sm-mb50">
                             <span class="icon pe-7s-smile"></span>
                             <h3 class=""><span class="count">2400</span></h3>
-                            <p class="wow txt" data-splitting>People who are commited to their
-                                management tasks.</p>
+                            <p class="wow txt" data-splitting>Staff</p>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="item no-bord sm-mb50">
                             <span class="icon pe-7s-portfolio"></span>
-                            <h3 class=""><span class="count">133</span></h3>
-                            <p class="wow txt" data-splitting>Signed projects that have been
-                                confirmed complete!</p>
+                            <h3 class=""><span class="count">50</span></h3>
+                            <p class="wow txt" data-splitting>Projects</p>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="item no-bord">
                             <span class="icon pe-7s-medal"></span>
-                            <h3 class=""><span class="count">46</span></h3>
-                            <p class="wow txt" data-splitting>International awards and cups
-                                for design projects.</p>
+                            <h3 class=""><span class="count">3</span></h3>
+                            <p class="wow txt" data-splitting>Awards</p>
                         </div>
                     </div>
                 </div>
@@ -400,7 +441,7 @@
                                 <div class="col-md-4">
                                     <div class="item wow fadeInLeft" data-wow-delay=".6">
                                         <div class="skill" data-value="0.9">
-                                            <span class="">90%</span>
+                                            <span class="">33.3%</span>
                                         </div>
                                         <div class="cont">
                                             <span></span>
@@ -411,7 +452,7 @@
                                 <div class="col-md-4">
                                     <div class="item wow fadeInLeft" data-wow-delay=".3">
                                         <div class="skill" data-value="0.75">
-                                            <span class="">75%</span>
+                                            <span class="">33.3%</span>
                                         </div>
                                         <div class="cont">
                                             <span></span>
@@ -423,7 +464,7 @@
                                 <div class="col-md-4">
                                     <div class="item wow fadeInLeft" data-wow-delay=".3">
                                         <div class="skill" data-value="0.75">
-                                            <span class="">75%</span>
+                                            <span class="">33.3%</span>
                                         </div>
                                         <div class="cont">
                                             <span></span>
