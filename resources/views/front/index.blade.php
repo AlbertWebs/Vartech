@@ -178,31 +178,54 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-8 col-md-10">
                         <div class="sec-head  text-center">
-                            <h6 class="wow fadeIn" data-wow-delay=".5s">Best Features</h6>
-                            <h3 class="wow color-font">We are a new digital product development agency</h3>
+                            <h6 class="wow fadeIn" data-wow-delay=".5s">Quality Guaranteed</h6>
+                            <h3 class="wow color-font">Digital Design Solutions</h3>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-lg-4 wow fadeInLeft" data-wow-delay=".5s">
                         <div class="item-box md-mb50">
-                            <span class="icon pe-7s-paint-bucket"></span>
-                            <h6>Graphic Design</h6>
-                            <p>Tempore corrupti temporibus fuga earum asperiores fugit laudantium.</p>
+                            <span class="icon pe-7s-display2"></span>
+                            <h6>Advertising</h6>
+                            <p>Big ideas don’t come from thin air. They take top-notch research, valuable customer insights, iconic locations
+                                and talented people all working together to not only meet the clients’ goals, but exceed them.
+                            </p>
+                            <div class="text-center">
+                                <a href="#0" class="butn bord curve mt-30">
+                                    <span>Learn More</span>
+                                </a>
+                            </div>
                         </div>
+                        
                     </div>
                     <div class="col-lg-4 wow fadeInLeft" data-wow-delay=".7s">
                         <div class="item-box md-mb50">
-                            <span class="icon pe-7s-phone"></span>
-                            <h6>Web & Mobile Design</h6>
-                            <p>Tempore corrupti temporibus fuga earum asperiores fugit.</p>
+                            <span class="icon pe-7s-video"></span>
+                            <h6>Media Production</h6>
+                            <p>We create high-quality documentary lms and videos for businesses and NGO’s of all sizes, at the same
+                                time we provide documentary production crew here in kenya upon request to handle camera, sound
+                                and lighting setup.
+                            </p>
+                            <div class="text-center">
+                                <a href="#0" class="butn bord curve mt-30">
+                                    <span>Learn More</span>
+                                </a>
+                            </div>
                         </div>
                     </div>
                     <div class="col-lg-4 wow fadeInLeft" data-wow-delay=".9s">
                         <div class="item-box">
                             <span class="icon pe-7s-display1"></span>
-                            <h6>Social media Marketing</h6>
-                            <p>Tempore corrupti temporibus fuga earum asperiores fugit.</p>
+                            <h6>Tv Commercial</h6>
+                            <p>Our Productions uses only the latest cameras and high-end production equipment when shooting
+                                TV commercials for its corporate clients in Kenya and East Africa region.
+                            </p>
+                            <div class="text-center">
+                                <a href="#0" class="butn bord curve mt-30">
+                                    <span>Learn More</span>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -311,7 +334,7 @@
                     <div class="col-md-4">
                         <div class="item no-bord sm-mb50">
                             <span class="icon pe-7s-smile"></span>
-                            <h3 class=""><span class="count">2400</span></h3>
+                            <h3 class=""><span class="count">24</span></h3>
                             <p class="wow txt" data-splitting>Staff</p>
                         </div>
                     </div>
@@ -334,8 +357,6 @@
         </section>
 
         <!-- ==================== End numbers ==================== -->
-
-
 
         <!-- ==================== Start video ==================== -->
 
