@@ -251,7 +251,7 @@
                                             data-background="{{asset('theme/img/portfolio/metro/03.jpg')}}">
                                         </div>
                                         <div class="cont">
-                                            <<h6 class="color-font"><a href="#0">Network & Locations</a></h6>
+                                            <h6 class="color-font"><a href="#0">Network & Locations</a></h6>
                                             <h4><a href="#">Our Work</a></h4>
                                         </div>
                                     </div>
