@@ -178,56 +178,34 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-8 col-md-10">
                         <div class="sec-head  text-center">
-                            <h6 class="wow fadeIn" data-wow-delay=".5s">Quality Guaranteed</h6>
-                            <h3 class="wow color-font">Digital Design Solutions</h3>
+                            {{-- <h6 class="wow fadeIn" data-wow-delay=".5s">Quality Guaranteed</h6>
+                            <h3 class="wow color-font">Digital Design Solutions</h3> --}}
+                            <h6 class="wow fadeIn" data-wow-delay=".5s">Best Features</h6>
+                            <h3 class="wow color-font">We are a new digital product development agency</h3>
+                            
                         </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-4 wow fadeInLeft" data-wow-delay=".5s">
+                    <?php $Services = DB::table('services')->get(); $Count = 5;  ?>
+                    @foreach ($Services as $services)
+                    <div class="col-lg-4 wow fadeInLeft" data-wow-delay=".{{$Count}}s">
                         <div class="item-box md-mb50">
-                            <span class="icon pe-7s-display2"></span>
-                            <h6>Advertising</h6>
-                            <p>Big ideas don’t come from thin air. They take top-notch research, valuable customer insights, iconic locations
-                                and talented people all working together to not only meet the clients’ goals, but exceed them.
+                            <span class="icon {{$services->icon}}"></span>
+                            <h6>{{$services->title}}</h6>
+                            <p>{{$services->meta}}
                             </p>
                             <div class="text-center">
-                                <a href="#0" class="butn bord curve mt-30">
+                                <a href="{{url('/')}}/services/{{$services->slung}}" class="butn bord curve mt-30">
                                     <span>Learn More</span>
                                 </a>
                             </div>
                         </div>
                         
                     </div>
-                    <div class="col-lg-4 wow fadeInLeft" data-wow-delay=".7s">
-                        <div class="item-box md-mb50">
-                            <span class="icon pe-7s-video"></span>
-                            <h6>Media Production</h6>
-                            <p>We create high-quality documentary lms and videos for businesses and NGO’s of all sizes, at the same
-                                time we provide documentary production crew here in kenya upon request to handle camera, sound
-                                and lighting setup.
-                            </p>
-                            <div class="text-center">
-                                <a href="#0" class="butn bord curve mt-30">
-                                    <span>Learn More</span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 wow fadeInLeft" data-wow-delay=".9s">
-                        <div class="item-box">
-                            <span class="icon pe-7s-display1"></span>
-                            <h6>Tv Commercial</h6>
-                            <p>Our Productions uses only the latest cameras and high-end production equipment when shooting
-                                TV commercials for its corporate clients in Kenya and East Africa region.
-                            </p>
-                            <div class="text-center">
-                                <a href="#0" class="butn bord curve mt-30">
-                                    <span>Learn More</span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+                    <?php $Count = $Count+2; ?>
+                    @endforeach
+                 
                 </div>
             </div>
         </section>
@@ -251,7 +229,8 @@
                                         </div>
                                         <div class="cont">
                                             <h6 class="color-font"><a href="#0">Network & Locations</a></h6>
-                                            {{-- <h4><a href="project-details2.html">Innovation and Crafts.</a></h4> --}}
+                                            <h4><a href="#">Our Work</a></h4>
+                                           
                                         </div>
                                     </div>
                                 </div>
@@ -262,7 +241,7 @@
                                         </div>
                                         <div class="cont">
                                             <h6 class="color-font"><a href="#0">Network & Locations</a></h6>
-                                            {{-- <h4><a href="project-details2.html">Inspiring new space.</a></h4> --}}
+                                            <h4><a href="#">Our Work</a></h4>
                                         </div>
                                     </div>
                                 </div>
@@ -272,8 +251,8 @@
                                             data-background="{{asset('theme/img/portfolio/metro/03.jpg')}}">
                                         </div>
                                         <div class="cont">
-                                            <h6 class="color-font"><a href="#0">Network & Locations</a></h6>
-                                            {{-- <h4><a href="project-details2.html">Natural plus modern.</a></h4> --}}
+                                            <<h6 class="color-font"><a href="#0">Network & Locations</a></h6>
+                                            <h4><a href="#">Our Work</a></h4>
                                         </div>
                                     </div>
                                 </div>
@@ -284,7 +263,7 @@
                                         </div>
                                         <div class="cont">
                                             <h6 class="color-font"><a href="#0">Network & Locations</a></h6>
-                                            {{-- <h4><a href="project-details2.html">Innovation and Crafts.</a></h4> --}}
+                                            <h4><a href="#">Our Work</a></h4>
                                         </div>
                                     </div>
                                 </div>
@@ -295,7 +274,7 @@
                                         </div>
                                         <div class="cont">
                                             <h6 class="color-font"><a href="#0">Network & Locations</a></h6>
-                                            {{-- <h4><a href="project-details2.html">Inspiring new space.</a></h4> --}}
+                                            <h4><a href="#">Our Work</a></h4>
                                         </div>
                                     </div>
                                 </div>
@@ -682,8 +661,9 @@
                     </div>
 
                     <div class="col-md-4 col-lg-3 valign">
-                        <a href="contact.html" class="butn bord curve wow fadeInUp" data-wow-delay=".5s"><span>Get In
-                                Touch</span></a>
+                        <a href="{{url('/')}}" class="butn bord curve wow fadeInUp" data-wow-delay=".5s">
+                            <span>Get In Touch</span>
+                        </a>
                     </div>
 
                 </div>

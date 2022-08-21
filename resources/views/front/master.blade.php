@@ -104,7 +104,7 @@
                     </li>
 
                     <li class="nav-item dropdown">
-                        <a class="nav-link" href="#">Our Work </a>
+                        <a class="nav-link" href="#">Location & Networks </a>
 
                     </li>
 
