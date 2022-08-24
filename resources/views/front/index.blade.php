@@ -154,11 +154,11 @@
                         <img src="{{asset('theme/img/feat.jpg')}}" alt="">
                         <div class="stauts">
                             <div class="item">
-                                <h4>3<span>K</span></h4>
+                                <h4>50<span></span></h4>
                                 <h6>Happy Clients</h6>
                             </div>
                             <div class="item">
-                                <h4>14<span>K</span></h4>
+                                <h4>100<span></span></h4>
                                 <h6>Success Projects</h6>
                             </div>
                         </div>
@@ -228,8 +228,8 @@
                                             data-background="{{asset('theme/img/portfolio/metro/01.jpg')}}">
                                         </div>
                                         <div class="cont">
-                                            <h6 class="color-font"><a href="#0">Network & Locations</a></h6>
-                                            <h4><a href="#">Our Work</a></h4>
+                                            <h6 class="color-font"><a style="font-weight: 900" href="#0">Network & Locations</a></h6>
+                                            {{-- <h4><a href="#">Our Work</a></h4> --}}
                                            
                                         </div>
                                     </div>
@@ -240,8 +240,8 @@
                                             data-background="{{asset('theme/img/portfolio/metro/02.jpg')}}">
                                         </div>
                                         <div class="cont">
-                                            <h6 class="color-font"><a href="#0">Network & Locations</a></h6>
-                                            <h4><a href="#">Our Work</a></h4>
+                                            <h6 class="color-font"><a style="font-weight: 900" href="#0">Network & Locations</a></h6>
+                                            {{-- <h4><a href="#">Our Work</a></h4> --}}
                                         </div>
                                     </div>
                                 </div>
@@ -251,8 +251,8 @@
                                             data-background="{{asset('theme/img/portfolio/metro/03.jpg')}}">
                                         </div>
                                         <div class="cont">
-                                            <h6 class="color-font"><a href="#0">Network & Locations</a></h6>
-                                            <h4><a href="#">Our Work</a></h4>
+                                            <h6 class="color-font"><a style="font-weight: 900" href="#0">Network & Locations</a></h6>
+                                            {{-- <h4><a href="#">Our Work</a></h4> --}}
                                         </div>
                                     </div>
                                 </div>
@@ -262,8 +262,8 @@
                                             data-background="{{asset('theme/img/portfolio/metro/04.jpg')}}">
                                         </div>
                                         <div class="cont">
-                                            <h6 class="color-font"><a href="#0">Network & Locations</a></h6>
-                                            <h4><a href="#">Our Work</a></h4>
+                                            <h6 class="color-font"><a style="font-weight: 900" href="#0">Network & Locations</a></h6>
+                                            {{-- <h4><a href="#">Our Work</a></h4> --}}
                                         </div>
                                     </div>
                                 </div>
@@ -273,8 +273,8 @@
                                             data-background="{{asset('theme/img/portfolio/metro/05.jpg')}}">
                                         </div>
                                         <div class="cont">
-                                            <h6 class="color-font"><a href="#0">Network & Locations</a></h6>
-                                            <h4><a href="#">Our Work</a></h4>
+                                            <h6 class="color-font"><a style="font-weight: 900" href="#0">Network & Locations</a></h6>
+                                            {{-- <h4><a href="#">Our Work</a></h4> --}}
                                         </div>
                                     </div>
                                 </div>
