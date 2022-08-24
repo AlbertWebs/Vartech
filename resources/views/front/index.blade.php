@@ -440,7 +440,7 @@
                             <div class="row">
                                 <div class="col-md-4">
                                     <div class="item wow fadeInLeft" data-wow-delay=".6">
-                                        <div class="skill" data-value="0.9">
+                                        <div class="skill" data-value="1">
                                             <span class="">33.3%</span>
                                         </div>
                                         <div class="cont">
@@ -451,7 +451,7 @@
                                 </div>
                                 <div class="col-md-4">
                                     <div class="item wow fadeInLeft" data-wow-delay=".3">
-                                        <div class="skill" data-value="0.75">
+                                        <div class="skill" data-value="1">
                                             <span class="">33.3%</span>
                                         </div>
                                         <div class="cont">
@@ -463,7 +463,7 @@
 
                                 <div class="col-md-4">
                                     <div class="item wow fadeInLeft" data-wow-delay=".3">
-                                        <div class="skill" data-value="0.75">
+                                        <div class="skill" data-value="1">
                                             <span class="">33.3%</span>
                                         </div>
                                         <div class="cont">
