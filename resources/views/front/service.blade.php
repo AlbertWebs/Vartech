@@ -62,9 +62,33 @@
                     </div>
 
                     <div class="pagination">
-                        <span><a href="#0">Prev Post</a></span>
-                        <span class="icon"><a href="{{url('/')}}"><i class="fas fa-th-large"></i></a></span>
-                        <span class="text-right"><a href="#0">Next Post</a></span>
+                            <?php
+                                    $ProductID = $S->id;
+                                    $ProductNext = $ProductID+1;
+                                    $ProductPrev = $ProductID-1;
+                            ?>
+                            @if($ProductPrev<1)
+
+                            @else
+                                <?php
+                                    $ProductPrevFetch = App\Models\Service::find($ProductPrev);
+                                ?>
+
+                                @if($ProductPrevFetch == null)
+
+                                @else
+                                <span><a href="{{url('/')}}/services/{{$ProductPrevFetch->slung}}">Prev Post</a></span>
+                                @endif
+                            @endif
+                            <span class="icon"><a href="{{url('/')}}"><i class="fas fa-th-large"></i></a></span>
+
+                            <?php $ProductNextFetch = App\Models\Service::find($ProductNext); ?>
+                            @if($ProductNextFetch==null)
+
+                            @else
+                               <span class="text-right"><a href="{{url('/')}}/services/{{$ProductNextFetch->slung}}">Next Post</a></span>
+                            @endif
+                        
                     </div>
 
                   
