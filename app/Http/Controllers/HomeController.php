@@ -33,4 +33,17 @@ class HomeController extends Controller
             return view('front.service', compact('Service','title'));
         }
     }
+
+
+    public function location($slung){
+        
+        $Service = DB::table('portfolios')->where('slung',$slung)->get();
+        foreach ($Service as $key => $value) {
+            $title = $value->title;
+            # code...
+            return view('front.location', compact('Service','title'));
+        }
+    }
+
+    
 }

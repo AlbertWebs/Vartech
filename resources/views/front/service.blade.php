@@ -21,9 +21,11 @@
         <div class="row justify-content-center">
             <div class="col-lg-11">
                 <div class="post">
+                    @foreach ($Service as $S)
                     <div class="img">
-                        <img src="{{asset('theme/img/blog/single.jpg')}}" alt="{{$title}}">
+                        <img src="{{url('/')}}/uploads/{{$S->image}}" alt="{{$title}}">
                     </div>
+                    @endforeach
                     <div class="content pt-60">
                         <div class="row justify-content-center">
                             <div class="col-lg-10">

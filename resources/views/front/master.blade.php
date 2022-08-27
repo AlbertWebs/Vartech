@@ -103,16 +103,38 @@
 
                     </li>
 
-                    <li class="nav-item dropdown">
+                    {{-- <li class="nav-item dropdown">
                         <a class="nav-link" href="#">Location & Networks </a>
-                        {{-- Drop Down --}}
-
+                    </li> --}}
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                            aria-haspopup="true" aria-expanded="false">Location & Networks </a>
+                        <div class="dropdown-menu">
+                            <?php
+                                $Services = DB::table('portfolios')->get();
+                            ?>
+                            @foreach ($Services as $S)
+                            <a class="dropdown-item" href="{{url('/')}}/location-and-networks/{{$S->slung}}">{{$S->title}}</a>
+                            @endforeach
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                            aria-haspopup="true" aria-expanded="false">Our Services</a>
+                        <div class="dropdown-menu">
+                            <?php
+                                $Services = DB::table('services')->get();
+                            ?>
+                            @foreach ($Services as $S)
+                            <a class="dropdown-item" href="{{url('/')}}/services/{{$S->slung}}">{{$S->title}}</a>
+                            @endforeach
+                        </div>
                     </li>
 
-                    <li class="nav-item dropdown">
+                    {{-- <li class="nav-item dropdown">
                         <a class="nav-link" href="#">Our Services </a>
 
-                    </li>
+                    </li> --}}
 
                     <li class="nav-item">
                         <a class="nav-link" href="{{url('/')}}/contact-us">Contact Us <i class="fa fa-phone"></i></a>
