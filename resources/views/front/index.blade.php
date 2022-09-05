@@ -567,7 +567,7 @@
                                 <div class="col-md-4 col-6 brands">
                                     <div class="item wow fadeIn" data-wow-delay=".3s">
                                         <div class="img">
-                                            <img src="{{url('/')}}/uploads/clients/logos_Page_10.png" alt="">
+                                            <img src="{{url('/')}}/uploads/clients/logos-10.png" alt="">
                                             <a href="#0" class="link" data-splitting>www.aste.co.ke</a>
                                         </div>
                                     </div>
