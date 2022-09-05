@@ -85,20 +85,22 @@
                     <div class="content pt-0">
                         <h4 class="wow color-font">About us.</h4>
                         <p class="wow txt" data-splitting>Our creative Ad agency is ranked among the finest in
-                            the US. We cultivate smart ideas for start-ups and seasoned players.
+                            Africa. We cultivate smart ideas for start-ups and seasoned players.
                         </p>
                         <ul class="feat">
                             <li class="wow fadeInUp" data-wow-delay=".2s">
                                 <h6><span>1</span> Our Mission</h6>
-                                <p>luctus massa ipsum at tempus eleifend congue lectus bibendum</p>
+                                <p>We’re in business to save your brand</p>
                             </li>
                             <li class="wow fadeInUp" data-wow-delay=".4s">
                                 <h6><span>2</span> Our Goals</h6>
-                                <p>luctus massa ipsum at tempus eleifend congue lectus bibendum</p>
+                                <p>To offer a wide range of well-designed, functional interactively by design ideas to brands.</p>
                             </li>
                             <li class="wow fadeInUp" data-wow-delay=".6s">
                                 <h6><span>3</span> Why Us? </h6>
-                                <p>luctus massa ipsum at tempus eleifend congue lectus bibendum</p>
+                                <p>
+                                    “We are NEW. We are DIFFERENT. We are here to SERVE YOU BETTER,”.
+                                </p>
                             </li>
                         </ul>
                     </div>
