@@ -182,7 +182,7 @@
                             <h3 class="wow color-font">Digital Design Solutions</h3> --}}
                             <h6 class="wow fadeIn" data-wow-delay=".5s">Best Features</h6>
                             <h3 class="wow color-font">We are a new digital product development agency</h3>
-                            
+
                         </div>
                     </div>
                 </div>
@@ -201,11 +201,11 @@
                                 </a>
                             </div>
                         </div>
-                        
+
                     </div>
                     <?php $Count = $Count+2; ?>
                     @endforeach
-                 
+
                 </div>
             </div>
         </section>
@@ -230,7 +230,7 @@
                                         <div class="cont">
                                             <h6 class="color-font"><a style="font-weight: 900" href="#0">Network & Locations</a></h6>
                                             {{-- <h4><a href="#">Our Work</a></h4> --}}
-                                           
+
                                         </div>
                                     </div>
                                 </div>
@@ -498,72 +498,81 @@
                     <div class="col-lg-8">
                         <div>
                             <div class="row bord">
-                                <div class="col-md-3 col-6 brands">
+                                <div class="col-md-4 col-6 brands">
                                     <div class="item wow fadeIn" data-wow-delay=".3s">
                                         <div class="img">
-                                            <img src="{{asset('theme/img/clients/brands/01.png')}}" alt="">
-                                            <a href="#0" class="link" data-splitting>www.Vie.com</a>
+                                            <img src="{{url('/')}}/uploads/clients/logos_Page_01.png" alt="">
+                                            <a href="#0" class="link" data-splitting>www.safaricom.com</a>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-3 col-6 brands">
+                                <div class="col-md-4 col-6 brands">
                                     <div class="item wow fadeIn" data-wow-delay=".6s">
                                         <div class="img">
-                                            <img src="{{asset('theme/img/clients/brands/02.png')}}" alt="">
-                                            <a href="#0" class="link" data-splitting>www.Vie.com</a>
+                                            <img src="{{url('/')}}/uploads/clients/logos_Page_02.png" alt="">
+                                            <a href="#0" class="link" data-splitting>www.toyota.com</a>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-3 col-6 brands">
+                                <div class="col-md-4 col-6 brands">
                                     <div class="item wow fadeIn" data-wow-delay=".8s">
                                         <div class="img">
-                                            <img src="{{asset('theme/img/clients/brands/03.png')}}" alt="">
-                                            <a href="#0" class="link" data-splitting>www.Vie.com</a>
+                                            <img src="{{url('/')}}/uploads/clients/logos_Page_04.png" alt="">
+                                            <a href="#0" class="link" data-splitting>www.airtel.com</a>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-3 col-6 brands">
+                                <div class="col-md-4 col-6 brands">
                                     <div class="item wow fadeIn" data-wow-delay=".3s">
                                         <div class="img">
-                                            <img src="{{asset('theme/img/clients/brands/04.png')}}" alt="">
-                                            <a href="#0" class="link" data-splitting>www.Vie.com</a>
+                                            <img src="{{url('/')}}/uploads/clients/logos_Page_05.png" alt="">
+                                            <a href="#0" class="link" data-splitting>Crowne</a>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-3 col-6 brands sm-mb30">
+
+
+                                <div class="col-md-4 col-6 brands sm-mb30">
                                     <div class="item wow fadeIn" data-wow-delay=".4s">
                                         <div class="img">
-                                            <img src="{{asset('theme/img/clients/brands/05.png')}}" alt="">
-                                            <a href="#0" class="link" data-splitting>www.Vie.com</a>
+                                            <img src="{{url('/')}}/uploads/clients/logos_Page_06.png" alt="">
+                                            <a href="#0" class="link" data-splitting>whats God Network</a>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-3 col-6 brands sm-mb30">
+                                <div class="col-md-4 col-6 brands sm-mb30">
                                     <div class="item wow fadeIn" data-wow-delay=".7s">
                                         <div class="img">
-                                            <img src="{{asset('theme/img/clients/brands/06.png')}}" alt="">
-                                            <a href="#0" class="link" data-splitting>www.Vie.com</a>
+                                            <img src="{{url('/')}}/uploads/clients/logos_Page_07.png" alt="">
+                                            <a href="#0" class="link" data-splitting>IsMarriot</a>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-3 col-6 brands">
+                                <div class="col-md-4 col-6 brands">
                                     <div class="item wow fadeIn" data-wow-delay=".5s">
                                         <div class="img">
-                                            <img src="{{asset('theme/img/clients/brands/07.png')}}" alt="">
-                                            <a href="#0" class="link" data-splitting>www.Vie.com</a>
+                                            <img src="{{url('/')}}/uploads/clients/logos_Page_08.png" alt="">
+                                            <a href="#0" class="link" data-splitting>C-Hub</a>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-3 col-6 brands">
+                                <div class="col-md-4 col-6 brands">
                                     <div class="item wow fadeIn" data-wow-delay=".3s">
                                         <div class="img">
-                                            <img src="{{asset('theme/img/clients/brands/08.png')}}" alt="">
-                                            <a href="#0" class="link" data-splitting>www.Vie.com</a>
+                                            <img src="{{url('/')}}/uploads/clients/logos_Page_09.png" alt="">
+                                            <a href="#0" class="link" data-splitting>Fusion HR</a>
                                         </div>
                                     </div>
                                 </div>
+                                <div class="col-md-4 col-6 brands">
+                                    <div class="item wow fadeIn" data-wow-delay=".3s">
+                                        <div class="img">
+                                            <img src="{{url('/')}}/uploads/clients/logos_Page_10.png" alt="">
+                                            <a href="#0" class="link" data-splitting>www.aste.co.ke</a>
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                     </div>
