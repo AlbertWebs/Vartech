@@ -536,7 +536,7 @@
                                     <div class="item wow fadeIn" data-wow-delay=".4s">
                                         <div class="img">
                                             <img src="{{url('/')}}/uploads/clients/logos_Page_06.png" alt="">
-                                            <a href="#0" class="link" data-splitting>whats God Network</a>
+                                            <a href="#0" class="link" data-splitting>whats Good Network</a>
                                         </div>
                                     </div>
                                 </div>
@@ -670,7 +670,7 @@
                     </div>
 
                     <div class="col-md-4 col-lg-3 valign">
-                        <a href="{{url('/')}}" class="butn bord curve wow fadeInUp" data-wow-delay=".5s">
+                        <a href="{{url('/')}}/contact-us" class="butn bord curve wow fadeInUp" data-wow-delay=".5s">
                             <span>Get In Touch</span>
                         </a>
                     </div>
