@@ -501,7 +501,7 @@
                                 <div class="col-md-4 col-6 brands">
                                     <div class="item wow fadeIn" data-wow-delay=".3s">
                                         <div class="img">
-                                            <img src="{{url('/')}}/uploads/clients/logos_Page_01.png" alt="">
+                                            <img src="{{url('/')}}/uploads/clients/logos-1.png" alt="">
                                             <a href="#0" class="link" data-splitting>www.safaricom.com</a>
                                         </div>
                                     </div>
@@ -509,7 +509,7 @@
                                 <div class="col-md-4 col-6 brands">
                                     <div class="item wow fadeIn" data-wow-delay=".6s">
                                         <div class="img">
-                                            <img src="{{url('/')}}/uploads/clients/logos_Page_02.png" alt="">
+                                            <img src="{{url('/')}}/uploads/clients/logos-2.png" alt="">
                                             <a href="#0" class="link" data-splitting>www.toyota.com</a>
                                         </div>
                                     </div>
@@ -517,7 +517,7 @@
                                 <div class="col-md-4 col-6 brands">
                                     <div class="item wow fadeIn" data-wow-delay=".8s">
                                         <div class="img">
-                                            <img src="{{url('/')}}/uploads/clients/logos_Page_04.png" alt="">
+                                            <img src="{{url('/')}}/uploads/clients/logos-4.png" alt="">
                                             <a href="#0" class="link" data-splitting>www.airtel.com</a>
                                         </div>
                                     </div>
@@ -525,7 +525,7 @@
                                 <div class="col-md-4 col-6 brands">
                                     <div class="item wow fadeIn" data-wow-delay=".3s">
                                         <div class="img">
-                                            <img src="{{url('/')}}/uploads/clients/logos_Page_05.png" alt="">
+                                            <img src="{{url('/')}}/uploads/clients/logos-5.png" alt="">
                                             <a href="#0" class="link" data-splitting>Crowne</a>
                                         </div>
                                     </div>
@@ -535,7 +535,7 @@
                                 <div class="col-md-4 col-6 brands sm-mb30">
                                     <div class="item wow fadeIn" data-wow-delay=".4s">
                                         <div class="img">
-                                            <img src="{{url('/')}}/uploads/clients/logos_Page_06.png" alt="">
+                                            <img src="{{url('/')}}/uploads/clients/logos-6.png" alt="">
                                             <a href="#0" class="link" data-splitting>whats Good Network</a>
                                         </div>
                                     </div>
@@ -543,23 +543,23 @@
                                 <div class="col-md-4 col-6 brands sm-mb30">
                                     <div class="item wow fadeIn" data-wow-delay=".7s">
                                         <div class="img">
-                                            <img src="{{url('/')}}/uploads/clients/logos_Page_07.png" alt="">
+                                            <img src="{{url('/')}}/uploads/clients/logos-7.png" alt="">
                                             <a href="#0" class="link" data-splitting>IsMarriot</a>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-4 col-6 brands">
+                                {{-- <div class="col-md-4 col-6 brands">
                                     <div class="item wow fadeIn" data-wow-delay=".5s">
                                         <div class="img">
-                                            <img src="{{url('/')}}/uploads/clients/logos_Page_08.png" alt="">
+                                            <img src="{{url('/')}}/uploads/clients/logos-8.png" alt="">
                                             <a href="#0" class="link" data-splitting>C-Hub</a>
                                         </div>
                                     </div>
-                                </div>
+                                </div> --}}
                                 <div class="col-md-4 col-6 brands">
                                     <div class="item wow fadeIn" data-wow-delay=".3s">
                                         <div class="img">
-                                            <img src="{{url('/')}}/uploads/clients/logos_Page_09.png" alt="">
+                                            <img src="{{url('/')}}/uploads/clients/logos-9.png" alt="">
                                             <a href="#0" class="link" data-splitting>Fusion HR</a>
                                         </div>
                                     </div>
