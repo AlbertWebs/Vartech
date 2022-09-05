@@ -4774,7 +4774,7 @@ a:hover, span:hover {
   -webkit-transition: all .4s;
   -o-transition: all .4s;
   transition: all .4s;
-  max-width: 75px;
+  max-width: 150px;
   margin: auto;
 }
 
