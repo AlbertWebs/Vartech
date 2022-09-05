@@ -130,7 +130,7 @@
                 </div>
 
                 <div class="col-md-4 col-lg-3 valign">
-                    <a href="contact.html" class="butn bord curve wow fadeInUp" data-wow-delay=".5s"><span>Get In
+                    <a href="{{url('/')}}/contact-us" class="butn bord curve wow fadeInUp" data-wow-delay=".5s"><span>Get In
                             Touch</span></a>
                 </div>
 
