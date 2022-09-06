@@ -366,55 +366,49 @@
                                 </div>
                                 <div class="slic-item wow fadeInUp" data-wow-delay=".5s">
                                     <div class="item">
-                                        <p>Nulla metus metus ullamcorper vel tincidunt sed euismod nibh volutpat velit
-                                            class
-                                            aptent taciti sociosqu ad litora.</p>
+                                        <p>"In my history of working with marketing and advertising agency I can honestly say that there is not one company that I've ever worked with that has better service than Vartech East Africa.”</p>
                                         <div class="info">
                                             <div class="img">
                                                 <div class="img-box">
-                                                    <img src="{{asset('theme/img/clients/1.jpg')}}" alt="">
+                                                    <img src="{{asset('theme/img/clients/istockphoto-1300845620-612x612.jpg')}}" alt="">
                                                 </div>
                                             </div>
                                             <div class="cont">
                                                 <div class="author">
-                                                    <h6 class="author-name ">Alex Regelman</h6>
-                                                    <span class="author-details">Co-founder, Colabrio</span>
+                                                    <h6 class="author-name ">Morris Ndonye</h6>
+                                                    <span class="author-details">Client</span>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="item">
-                                        <p>Nulla metus metus ullamcorper vel tincidunt sed euismod nibh volutpat velit
-                                            class
-                                            aptent taciti sociosqu ad litora.</p>
+                                        <p>"I’m never really worried about service delivery. I can call over there and talk to anyone and get my questions answered in an instant. Ease of getting a hold of people. All communication with them is really easy. They do handle everything.“</p>
                                         <div class="info">
                                             <div class="img">
                                                 <div class="img-box">
-                                                    <img src="{{asset('theme/img/clients/2.jpg')}}" alt="">
+                                                    <img src="{{asset('theme/img/clients/istockphoto-1300845620-612x612.jpg')}}" alt="">
                                                 </div>
                                             </div>
                                             <div class="cont">
                                                 <div class="author">
-                                                    <h6 class="author-name ">Alex Regelman</h6>
-                                                    <span class="author-details">Co-founder, Colabrio</span>
+                                                    <h6 class="author-name ">Errick Otieno</h6>
+                                                    <span class="author-details">Client</span>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="item">
-                                        <p>Nulla metus metus ullamcorper vel tincidunt sed euismod nibh volutpat velit
-                                            class
-                                            aptent taciti sociosqu ad litora.</p>
+                                        <p>“Vartech East Africa is not a provider. They are not a supplier. They are a partner with expertise in making sure your brand is interactively by design, that makes you Stand out in market.”</p>
                                         <div class="info">
                                             <div class="img">
                                                 <div class="img-box">
-                                                    <img src="{{asset('theme/img/clients/3.jpg')}}" alt="">
+                                                    <img src="{{asset('theme/img/clients/myPhoto.jpeg')}}" alt="">
                                                 </div>
                                             </div>
                                             <div class="cont">
                                                 <div class="author">
-                                                    <h6 class="author-name ">Alex Regelman</h6>
-                                                    <span class="author-details">Co-founder, Colabrio</span>
+                                                    <h6 class="author-name ">Albert Muhatia</h6>
+                                                    <span class="author-details">Operations Manager, Designekta Studios</span>
                                                 </div>
                                             </div>
                                         </div>
