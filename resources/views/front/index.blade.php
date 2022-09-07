@@ -8,7 +8,7 @@
         <div class="swiper-container parallax-slider">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <div class="bg-img valign" data-background="{{asset('theme/img/slid/5fd84f336cbf2.png')}}" data-overlay-dark="6">
+                    <div class="bg-img valign" data-background="{{asset('theme/img/slid/5fd84f336cbf2.jpg')}}" data-overlay-dark="6">
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-8 col-md-10">
@@ -28,7 +28,7 @@
                     </div>
                 </div>
 
-                <div class="swiper-slide">
+                {{-- <div class="swiper-slide">
                     <div class="bg-img valign" data-background="{{asset('theme/img/slid/JCDecaux-Airport_collage-01.png')}}" data-overlay-dark="6">
                         <div class="container">
                             <div class="row justify-content-center">
@@ -48,7 +48,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
 
                 <div class="swiper-slide">
                     <div class="bg-img valign" data-background="{{asset('theme/img/slid/hero-ivision_0.jpg')}}" data-overlay-dark="6">
