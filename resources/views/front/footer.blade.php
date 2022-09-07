@@ -37,26 +37,21 @@
                         <h5>Recent News</h5>
                     </div>
                     <ul>
+                        <?php
+                            $Blog = DB::table('blogs')->limit('2')->orderby('id','DESC')->get();
+                        ?>
+                        @foreach ($Blog as $item)
                         <li>
                             <div class="img">
-                                <img src="{{asset('theme/img/blog/1.jpg')}}" alt="">
+                                <img src="{{url('/')}}/uploads/blog/{{$item->image}}" alt="{{$item->title}}">
                             </div>
                             <div class="sm-post">
-                                <p>The Start-Up Ultimate Guide to Make Your WordPress
-                                    Journal.</p>
-                                <span class="date">14 sep 2021</span>
+                                <p>{{$item->title}}</p>
+                                <span class="date">{{date('d', strtotime($item->created_at))}} {{date('M', strtotime($item->created_at))}} {{date('Y', strtotime($item->created_at))}}</span>
                             </div>
                         </li>
-                        <li>
-                            <div class="img">
-                                <img src="{{asset('theme/img/blog/2.jpg')}}" alt="">
-                            </div>
-                            <div class="sm-post">
-                                <p>The Start-Up Ultimate Guide to Make Your WordPress
-                                    Journal.</p>
-                                <span class="date">14 sep 2021</span>
-                            </div>
-                        </li>
+                        @endforeach
+
                         <li>
                             <div class="subscribe">
                                 <input type="text" placeholder="Type Your Email">

@@ -28,8 +28,8 @@
                     </div>
                 </div>
 
-                {{-- <div class="swiper-slide">
-                    <div class="bg-img valign" data-background="{{asset('theme/img/slid/JCDecaux-Airport_collage-01.png')}}" data-overlay-dark="6">
+                <div class="swiper-slide">
+                    <div class="bg-img valign" data-background="{{asset('theme/img/slid/image.jpg')}}" data-overlay-dark="6">
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-7 col-md-9">
@@ -48,7 +48,7 @@
                             </div>
                         </div>
                     </div>
-                </div> --}}
+                </div>
 
                 <div class="swiper-slide">
                     <div class="bg-img valign" data-background="{{asset('theme/img/slid/hero-ivision_0.jpg')}}" data-overlay-dark="6">
@@ -591,58 +591,37 @@
                     </div>
                 </div>
                 <div class="row">
+                    <?php
+                        $Blog = DB::table('blogs')->limit('2')->orderby('id','DESC')->get();
+                    ?>
+                    @foreach ($Blog as $item)
                     <div class="col-lg-6">
                         <div class="item md-mb50 wow fadeInUp" data-wow-delay=".3s">
                             <div class="img">
-                                <img src="{{asset('theme/img/blog/1.jpg')}}" alt="">
+                                <img src="{{url('/')}}/uploads/blog/{{$item->image}}" alt="{{$item->title}}">
                             </div>
                             <div class="cont">
                                 <div>
                                     <div class="info">
-                                        <a href="#0" class="date">
-                                            <span><i>06</i> August</span>
+                                        <a href="{{url('/')}}/blogs/{{$item->slung}}" class="date">
+                                            <span><i>{{date('d', strtotime($item->created_at))}}</i> {{date('M', strtotime($item->created_at))}}</span>
                                         </a>
                                         <span>/</span>
-                                        <a href="#0" class="tag">
-                                            <span>WordPress</span>
+                                        <a href="{{url('/')}}/blogs/{{$item->slung}}" class="tag">
+                                            <span>Vartech East Africa</span>
                                         </a>
                                     </div>
                                     <h5>
-                                        <a href="#0">How to use solid color combine with simple furnitures.</a>
+                                        <a href="{{url('/')}}/blogs/{{$item->slung}}">{{$item->title}}</a>
                                     </h5>
                                     <div class="btn-more">
-                                        <a href="#0" class="simple-btn">Read More</a>
+                                        <a href="{{url('/')}}/blogs/{{$item->slung}}" class="simple-btn">Read More</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6">
-                        <div class="item md-mb50 wow fadeInUp" data-wow-delay=".5s">
-                            <div class="img">
-                                <img src="{{asset('theme/img/blog/2.jpg')}}" alt="">
-                            </div>
-                            <div class="cont">
-                                <div>
-                                    <div class="info">
-                                        <a href="#0" class="date">
-                                            <span><i>06</i> August</span>
-                                        </a>
-                                        <span>/</span>
-                                        <a href="#0" class="tag">
-                                            <span>WordPress</span>
-                                        </a>
-                                    </div>
-                                    <h5>
-                                        <a href="#0">How to use solid color combine with simple furnitures.</a>
-                                    </h5>
-                                    <div class="btn-more">
-                                        <a href="#0" class="simple-btn">Read More</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    @endforeach
                 </div>
             </div>
         </section>

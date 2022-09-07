@@ -18,14 +18,14 @@ class HomeController extends Controller
     }
 
 
-    
+
     public function contact_us(){
         $title = "Contact Us";
         return view('front.contact', compact('title'));
     }
 
     public function services($slung){
-        
+
         $Service = DB::table('services')->where('slung',$slung)->get();
         foreach ($Service as $key => $value) {
             $title = $value->title;
@@ -36,7 +36,7 @@ class HomeController extends Controller
 
 
     public function location($slung){
-        
+
         $Service = DB::table('portfolios')->where('slung',$slung)->get();
         foreach ($Service as $key => $value) {
             $title = $value->title;
@@ -45,5 +45,17 @@ class HomeController extends Controller
         }
     }
 
-    
+    public function blog_slung($slung){
+
+        $Blog = DB::table('blogs')->where('slung',$slung)->get();
+        foreach ($Blog as $key => $value) {
+            $title = $value->title;
+            # code...
+            return view('front.blog', compact('Blog','title'));
+        }
+    }
+
+
+
+
 }
