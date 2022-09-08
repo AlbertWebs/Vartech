@@ -75,7 +75,9 @@
                         </h3>
                         <div class="item mb-40">
                             <h5><a href="#0">info@vartecheastafrica.com</a></h5>
+                            <h5><a href="#0">support@vartecheastafrica.com</a></h5>
                             <h5>+254 722 237351</h5>
+                            <h5>+254 723 405320</h5>
                         </div>
                         <h3 class="wow" data-splitting>Visit Us.
                         </h3>
@@ -90,6 +92,8 @@
                             <a href="https://www.instagram.com/vartecheastafrica/"><i class="fab fa-instagram"></i></a>
                             <a href="https://www.linkedin.com/in/vartech-east-africa-11674b1ab/"><i class="fab fa-linkedin"></i></a>
                             <a href="https://pin.it/7xD8Y7q"><i class="fab fa-pinterest-p"></i></a>
+                            <a href="https://www.youtube.com/channel/UCtljXMbOqZ2ew8RuZnoCoHw"><i class="fab fa-youtube"></i></a>
+
                             {{-- <a href="#0" class="icon">
                                 <i class="fab fa-facebook-f"></i>
                             </a>

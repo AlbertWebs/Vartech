@@ -19,12 +19,14 @@
                             <div class="cont">
                                 <h6>Email Us</h6>
                                 <p>info@vartecheastafrica.com</p>
+                                <p>support@vartecheastafrica.com</p>
                             </div>
                         </li>
                         <li>
                             <span class="icon pe-7s-call"></span>
                             <div class="cont">
                                 <h6>Call Us</h6>
+                                <p>+254 723 405320</p>
                                 <p>+254 722 237351</p>
                             </div>
                         </li>
@@ -72,6 +74,7 @@
                         <a href="https://www.instagram.com/vartecheastafrica/"><i class="fab fa-instagram"></i></a>
                         <a href="https://www.linkedin.com/in/vartech-east-africa-11674b1ab/"><i class="fab fa-linkedin"></i></a>
                         <a href="https://pin.it/7xD8Y7q"><i class="fab fa-pinterest-p"></i></a>
+                        <a href="https://www.youtube.com/channel/UCtljXMbOqZ2ew8RuZnoCoHw"><i class="fab fa-youtube"></i></a>
                     </div>
                     <div class="copy-right">
                         <p>© Copyrights {{date('Y')}},  <a href="#0">Vartech East Africa Limited</a>. All Rights Reserved</p>
