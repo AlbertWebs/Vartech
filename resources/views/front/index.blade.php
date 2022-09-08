@@ -348,7 +348,7 @@
                             <div class="vid-area">
                                 <span class="text">Watch Video</span>
                                 <div class="vid-icon">
-                                    <a class="vid" href="https://vimeo.com/127203262">
+                                    <a class="vid" href="https://www.youtube.com/channel/UCtljXMbOqZ2ew8RuZnoCoHw">
                                         <div class="vid-butn">
                                             <span class="icon">
                                                 <i class="fas fa-play"></i>

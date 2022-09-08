@@ -85,7 +85,12 @@
                             </h6>
                         </div>
                         <div class="social mt-50">
-                            <a href="#0" class="icon">
+                            <a href="https://www.facebook.com/VartechEastAfrica"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://twitter.com/Vartecheast"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/vartecheastafrica/"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/vartech-east-africa-11674b1ab/"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://pin.it/7xD8Y7q"><i class="fab fa-pinterest-p"></i></a>
+                            {{-- <a href="#0" class="icon">
                                 <i class="fab fa-facebook-f"></i>
                             </a>
                             <a href="#0" class="icon">
@@ -96,7 +101,7 @@
                             </a>
                             <a href="#0" class="icon">
                                 <i class="fab fa-linkedin"></i>
-                            </a>
+                            </a> --}}
                         </div>
                     </div>
                 </div>
