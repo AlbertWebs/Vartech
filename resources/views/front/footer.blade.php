@@ -18,14 +18,14 @@
                             <span class="icon pe-7s-mail"></span>
                             <div class="cont">
                                 <h6>Email Us</h6>
-                                <p>support@vartecheastafrica.com</p>
+                                <p>info@vartecheastafrica.com</p>
                             </div>
                         </li>
                         <li>
                             <span class="icon pe-7s-call"></span>
                             <div class="cont">
                                 <h6>Call Us</h6>
-                                <p>+254 723 405320</p>
+                                <p>+254 722 237351</p>
                             </div>
                         </li>
                     </ul>
