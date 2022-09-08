@@ -74,8 +74,8 @@
                         <h3 class="wow" data-splitting>Let's Talk.
                         </h3>
                         <div class="item mb-40">
-                            <h5><a href="#0">support@vartecheastafrica.com</a></h5>
-                            <h5>+254 723 405320</h5>
+                            <h5><a href="#0">info@vartecheastafrica.com</a></h5>
+                            <h5>+254 722 237351</h5>
                         </div>
                         <h3 class="wow" data-splitting>Visit Us.
                         </h3>
