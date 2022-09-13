@@ -14,6 +14,7 @@
     <meta name="description" content="Vartech East Africa | Marketing and Agency in Kenya" />
     <meta name="author" content="Designekta Studios" />
 
+    @include('favicon')
     <!-- Favicon -->
     <link rel="shortcut icon" href="img/favicon.ico" />
 
