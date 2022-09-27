@@ -54,12 +54,7 @@
                         </li>
                         @endforeach
 
-                        <li>
-                            <div class="subscribe">
-                                <input type="text" placeholder="Type Your Email">
-                                <span class="subs pe-7s-paper-plane"></span>
-                            </div>
-                        </li>
+
                     </ul>
                 </div>
             </div>
