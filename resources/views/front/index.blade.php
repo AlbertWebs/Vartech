@@ -18,7 +18,7 @@
                                             At Vartech East Africa, we believe a brand’s sustainability and how it can be maximized. We call this
                                             Interactively by design®.
                                         </p>
-                                        <a href="#0" class="butn bord curve mt-30">
+                                        <a href="{{url('/')}}/about-us" class="butn bord curve mt-30">
                                             <span>Look More</span>
                                         </a>
                                     </div>
@@ -40,7 +40,7 @@
                                             At Vartech East Africa, we believe a brand’s sustainability and how it can be maximized. We call this
                                             Interactively by design®.
                                         </p>
-                                        <a href="#0" class="butn bord curve mt-30">
+                                        <a href="{{url('/')}}/about-us" class="butn bord curve mt-30">
                                             <span>Look More</span>
                                         </a>
                                     </div>
@@ -62,7 +62,7 @@
                                             At Vartech East Africa, we believe a brand’s sustainability and how it can be maximized. We call this
                                             Interactively by design®.
                                         </p>
-                                        <a href="#0" class="butn bord curve mt-30">
+                                        <a href="{{url('/')}}/about-us" class="butn bord curve mt-30">
                                             <span>Look More</span>
                                         </a>
                                     </div>
@@ -83,7 +83,7 @@
                                             At Vartech East Africa, we believe a brand’s sustainability and how it can be maximized. We call this
                                             Interactively by design®.
                                         </p>
-                                        <a href="#0" class="butn bord curve mt-30">
+                                        <a href="{{url('/')}}/about-us" class="butn bord curve mt-30">
                                             <span>Look More</span>
                                         </a>
                                     </div>
