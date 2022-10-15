@@ -225,7 +225,7 @@
                                 <div class="swiper-slide">
                                     <div class="content wow noraidus fadeInUp" data-wow-delay=".3s">
                                         <div class="item-img bg-img wow imago"
-                                            data-background="{{asset('theme/coming-soon.jpg')}}">
+                                            data-background="{{url('/')}}/uploads/portfolio/soon1.jpg">
                                         </div>
                                         <div class="cont">
                                             <h6 class="color-font"><a style="font-weight: 900" href="#0">Network & Locations</a></h6>
@@ -237,7 +237,7 @@
                                 <div class="swiper-slide">
                                     <div class="content wow noraidus fadeInUp" data-wow-delay=".3s">
                                         <div class="item-img bg-img wow imago"
-                                            data-background="{{asset('theme/coming-soon.jpg')}}">
+                                            data-background="{{url('/')}}/uploads/portfolio/soon2.jpg">
                                         </div>
                                         <div class="cont">
                                             <h6 class="color-font"><a style="font-weight: 900" href="#0">Network & Locations</a></h6>
@@ -248,7 +248,7 @@
                                 <div class="swiper-slide">
                                     <div class="content wow noraidus fadeInUp" data-wow-delay=".3s">
                                         <div class="item-img bg-img wow imago"
-                                            data-background="{{asset('theme/coming-soon.jpg')}}">
+                                            data-background="{{url('/')}}/uploads/portfolio/soon3.jpg">
                                         </div>
                                         <div class="cont">
                                             <h6 class="color-font"><a style="font-weight: 900" href="#0">Network & Locations</a></h6>
@@ -259,7 +259,7 @@
                                 <div class="swiper-slide">
                                     <div class="content wow noraidus fadeInUp" data-wow-delay=".3s">
                                         <div class="item-img bg-img wow imago"
-                                            data-background="{{asset('theme/coming-soon.jpg')}}">
+                                            data-background="{{url('/')}}/uploads/portfolio/soon4.jpg">
                                         </div>
                                         <div class="cont">
                                             <h6 class="color-font"><a style="font-weight: 900" href="#0">Network & Locations</a></h6>
@@ -270,7 +270,7 @@
                                 <div class="swiper-slide">
                                     <div class="content wow noraidus fadeInUp" data-wow-delay=".3s">
                                         <div class="item-img bg-img wow imago"
-                                            data-background="{{asset('theme/coming-soon.jpg')}}">
+                                            data-background="{{url('/')}}/uploads/portfolio/soon5.jpg">
                                         </div>
                                         <div class="cont">
                                             <h6 class="color-font"><a style="font-weight: 900" href="#0">Network & Locations</a></h6>
