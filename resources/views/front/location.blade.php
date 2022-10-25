@@ -22,11 +22,11 @@
             <div class="col-lg-11">
                 <div class="post">
                     <div class="img">
-                        <img src="{{asset('theme/img/coming-soon.jpg')}}" alt="{{$title}}">
+                        <img src="{{url('/')}}/uploads/portfolio/{{$image}}" alt="{{$title}}">
                     </div>
-             
 
-                  
+
+
 
                 </div>
             </div>

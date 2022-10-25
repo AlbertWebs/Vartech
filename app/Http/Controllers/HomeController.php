@@ -40,8 +40,9 @@ class HomeController extends Controller
         $Service = DB::table('portfolios')->where('slung',$slung)->get();
         foreach ($Service as $key => $value) {
             $title = $value->title;
+            $image = $value->image;
             # code...
-            return view('front.location', compact('Service','title'));
+            return view('front.location', compact('Service','title','image'));
         }
     }
 

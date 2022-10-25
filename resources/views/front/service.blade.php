@@ -30,18 +30,18 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-10">
                                 <div class="cont">
-                                    
+
                                     @foreach ($Service as $S)
                                     <div class="spacial">
                                         {!! html_entity_decode($S->content, ENT_QUOTES, 'UTF-8') !!}
                                     </div>
                                     @endforeach
-                                    
-                                   
 
-                                   
 
-                                    
+
+
+
+
                                     {{-- <div class="row">
                                         <div class="col-md-6">
                                             <div class="mb-10">
@@ -54,9 +54,9 @@
                                             </div>
                                         </div>
                                     </div> --}}
-                                    
+
                                 </div>
-                                
+
                             </div>
                         </div>
                     </div>
@@ -88,10 +88,10 @@
                             @else
                                <span class="text-right"><a href="{{url('/')}}/services/{{$ProductNextFetch->slung}}">Next Post</a></span>
                             @endif
-                        
+
                     </div>
 
-                  
+
 
                 </div>
             </div>
