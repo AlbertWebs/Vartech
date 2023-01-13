@@ -3318,7 +3318,7 @@ a:hover, span:hover {
 /* ====================== [ End Slider ] ====================== */
 /* ====================== [ Start showcase ] ====================== */
 .showcase-full .parallax-slider .swiper-slide .bg-img {
-  background-position: center center;
+  /* background-position: center center; */
 }
 
 .showcase-full .parallax-slider .caption {

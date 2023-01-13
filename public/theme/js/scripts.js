@@ -218,7 +218,7 @@ $(function () {
     var parallaxShowCase;
     var parallaxShowCaseOptions = {
         speed: 1000,
-        autoplay: true,
+        autoplay: false,
         parallax: true,
         mousewheel: true,
         loop: true,

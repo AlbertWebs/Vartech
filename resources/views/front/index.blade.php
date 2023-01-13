@@ -267,17 +267,17 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="swiper-slide">
+                                {{-- <div class="swiper-slide">
                                     <div class="content wow noraidus fadeInUp" data-wow-delay=".3s">
                                         <div class="item-img bg-img wow imago"
                                             data-background="{{url('/')}}/uploads/portfolio/soon5.jpg">
                                         </div>
                                         <div class="cont">
                                             <h6 class="color-font"><a style="font-weight: 900" href="#0">Network & Locations</a></h6>
-                                            {{-- <h4><a href="#">Our Work</a></h4> --}}
+                                            <h4><a href="#">Our Work</a></h4>
                                         </div>
                                     </div>
-                                </div>
+                                </div> --}}
                             </div>
 
                             <!-- slider setting -->
